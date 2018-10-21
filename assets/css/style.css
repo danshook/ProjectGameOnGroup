@@ -1,5 +1,5 @@
 html, body {
-    border: solid green;
+    /* border: solid green; */
     margin: 0;
     padding: 0;
     background-color: #231f20;
@@ -15,7 +15,7 @@ html, body {
 }
 
 header {
-    border: solid blue;
+    /* border: solid blue; */
     overflow: hidden;
     height: 70px;
     width: 100%;
@@ -24,33 +24,33 @@ header {
 }
 
 header img {
-    border: solid blue;
+    /* border: solid blue; */
     float: left;
     width: 13%;
-    margin-top: 2px;
-    margin-left: 20px;
+    margin-top: 5px;
+    margin-left: 30px;
 }
 
 #banner {
-    border: solid yellow;
+    /* border: solid yellow; */
     width: 49%;
     float: left;
     margin-top: 2px;
 }
 
 #banner h1 {
-    border: solid rgb(138, 238, 91);
+    /* border: solid rgb(138, 238, 91); */
     text-transform: uppercase;
     color: #ffffff;
     font-size: 36px;
     font-weight: lighter;
-    margin-top: 10px;
-    margin-right: 40px;
+    margin-top: 12px;
+    margin-right: 60px;
     float: right;
 }
 
 nav {
-    border: 2px solid rgb(255, 0, 212);
+    /* border: 2px solid rgb(255, 0, 212); */
     float: right;
     width: 49%;
     margin-top: 20px;
@@ -75,7 +75,7 @@ nav ul li a {
 }
 
 footer {
-    border: solid rgb(51, 228, 104);
+    /* border: solid rgb(51, 228, 104); */
     position: absolute;
     left: 0;
     bottom: 0;
