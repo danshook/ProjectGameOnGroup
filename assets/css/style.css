@@ -27,6 +27,8 @@ header img {
     border: solid blue;
     float: left;
     width: 15%;
+    margin-top: 1px;
+    margin-left: 20px;
 }
 
 #banner {
@@ -42,6 +44,8 @@ header img {
     font-size: 36px;
     font-weight: lighter;
     margin-top: 10px;
+    margin-right: 40px;
+    float: right;
 }
 
 nav {
