@@ -86,7 +86,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: red;
+    background-color: #c58232;
+    opacity: .8;
 }
 
 nav ul li ul li {
@@ -96,7 +97,8 @@ nav ul li ul li {
 
 ul li:hover ul li {
     display: block;
-    background-color: red;
+    background-color: #c58232;
+    opacity: .8;
 }
 
 footer {
