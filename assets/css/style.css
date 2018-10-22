@@ -2,7 +2,8 @@ html, body {
     /* border: solid green; */
     margin: 0;
     padding: 0;
-    background-color: #231f20;
+    /* background-color: #231f20; */
+    background-color: rgb(1, 1, 117);
     font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
     font-size: 16px;
 }
