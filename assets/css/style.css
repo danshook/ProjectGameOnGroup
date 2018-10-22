@@ -8,14 +8,14 @@ html, body {
 }
 
 .page {
-    border: solid red;
+    /* border: solid red; */
     width: 960px;
     margin: 0 auto;
     padding: 0;
 }
 
 header {
-    border: solid blue;
+    /* border: solid blue; */
     /* overflow: hidden; */
     height: 70px;
     width: 100%;
@@ -28,29 +28,30 @@ header img {
     float: left;
     width: 13%;
     margin-top: 5px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 #banner {
-    border: solid yellow;
+    /* border: solid yellow; */
     width: 42%;
     float: left;
     margin-top: 2px;
 }
 
 #banner h1 {
-    border: solid rgb(138, 238, 91);
+    /* border: solid rgb(138, 238, 91); */
     text-transform: uppercase;
     color: #ffffff;
     font-size: 36px;
     font-weight: lighter;
-    margin-top: 12px;
+    margin-top: 9px;
     margin-right: 10px;
+    margin-bottom: 9px;
     float: right;
 }
 
 nav {
-    border: 2px solid rgb(255, 0, 212);
+    /* border: 2px solid rgb(255, 0, 212); */
     float: right;
     width: 56%;
     margin-top: 9px;
@@ -96,13 +97,13 @@ nav ul li ul li {
 }
 
 ul li:hover ul li {
-    display: block;
     background-color: #c58232;
+    display: block;
     opacity: .8;
 }
 
 footer {
-    border: solid rgb(51, 228, 104);
+    /* border: solid rgb(51, 228, 104); */
     position: absolute;
     left: 0;
     bottom: 0;
@@ -114,7 +115,7 @@ footer {
 }
 
 #footer-left {
-    border: solid rgb(233, 64, 64);
+    /* border: solid rgb(233, 64, 64); */
     margin: 0;
     padding: 0;
     width: 49%;
@@ -131,16 +132,16 @@ footer {
 }
 
 #footer-left ul li a {
+    /* border: solid #ffffff; */
     text-decoration: none;
     color: #ffffff;
     border-radius: 50%;
-    border: solid #ffffff;
     padding: 5px;
     /* background-color: #ffffff; */
 }
 
 #footer-right {
-    border: solid rgb(35, 55, 236);
+    /* border: solid rgb(35, 55, 236); */
     margin: 0;
     padding: 0;
     width: 50%;
