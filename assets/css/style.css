@@ -75,13 +75,61 @@ nav ul li a {
 }
 
 footer {
-    /* border: solid rgb(51, 228, 104); */
+    border: solid rgb(51, 228, 104);
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #231f20;
     color: white;
-    padding: 15px;
+    margin: 0;
     text-align: center;
+}
+
+#footer-left {
+    border: solid rgb(233, 64, 64);
+    margin: 0;
+    padding: 0;
+    width: 49%;
+    float: left;
+}
+
+#footer-left ul {
+    list-style: none;
+}
+
+#footer-left ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+#footer-left ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 50%;
+    border: solid #ffffff;
+    padding: 5px;
+    /* background-color: #ffffff; */
+}
+
+#footer-right {
+    border: solid rgb(35, 55, 236);
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 43px;
+    float: right;
+}
+
+#footer-right p, a{
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+
+
+#footer-bottom {
+    clear: both;
 }
