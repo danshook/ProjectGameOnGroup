@@ -211,7 +211,7 @@ footer {
     height: auto;
     max-width: 100%;
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.6;
 }
 
@@ -225,7 +225,7 @@ footer {
 #what_we_offer blockquote {
     float: right;
     width: 275px;
-    font-size: 110%;
+    font-size: 130%;
     font-style: italic;
     margin: 0px 0px 10px 10px;
     padding: 10px;
