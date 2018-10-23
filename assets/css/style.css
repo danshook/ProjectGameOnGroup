@@ -146,10 +146,10 @@ footer {
 #footer-left ul li a {
     /* border: solid #ffffff; */
     text-decoration: none;
-    color: #ffffff;
+    color: black;
     border-radius: 50%;
     padding: 5px;
-    /* background-color: #ffffff; */
+    background-color: #ffffff;
 }
 
 #footer-right {
