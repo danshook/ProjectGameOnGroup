@@ -78,6 +78,10 @@ nav ul li {
     padding-left: 10px;
 }
 
+.fa-caret-down {
+    color: white;
+}
+
 nav ul li a {
     /* border: solid black; */
     text-decoration: none;
