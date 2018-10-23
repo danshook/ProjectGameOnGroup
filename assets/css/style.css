@@ -184,3 +184,58 @@ footer {
     color: white;
     text-decoration: none;
 }
+
+/* About page */
+
+#main_about {
+    /* border: solid rgb(111, 38, 129); */
+    height: 1500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#content_about {
+    /* border: solid rosybrown; */
+    display: inline-block;
+    height: auto;
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#what_we_offer {
+    /* border: solid orangered; */
+    margin: 3%;
+    padding: 10px;
+    height: auto;
+    max-width: 100%;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 150%;
+}
+
+#what_we_offer h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#what_we_offer blockquote {
+    float: right;
+    width: 275px;
+    font-size: 110%;
+    font-style: italic;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+}
+
+#what_we_offer_img {
+    /* border: solid red; */
+    float: right;
+    margin: 3%;
+}
