@@ -179,3 +179,8 @@ footer {
 #footer-bottom {
     clear: both;
 }
+
+#DS_Web_Link {
+    color: white;
+    text-decoration: none;
+}
