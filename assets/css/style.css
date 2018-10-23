@@ -91,11 +91,16 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #c58232;
     opacity: .8;
+    /* padding-top: 5px; */
+    /* margin-top: 5px; */
 }
 
 nav ul li ul li {
     display: none;
     font-size: 12px;
+    padding-top: 12px;
+    width: 110px;
+    float: right;
 }
 
 ul li:hover ul li {
