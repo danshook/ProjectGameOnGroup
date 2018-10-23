@@ -206,7 +206,7 @@ footer {
 
 #what_we_offer {
     /* border: solid orangered; */
-    margin: 4%;
+    margin: 3%;
     padding: 10px;
     height: auto;
     max-width: 100%;
@@ -237,6 +237,5 @@ footer {
 #what_we_offer_img {
     /* border: solid red; */
     float: right;
-    margin-top: 5%;
-    margin-right: 6%;
+    margin: 3%;
 }
