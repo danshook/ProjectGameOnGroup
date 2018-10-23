@@ -33,14 +33,14 @@ header img {
 }
 
 #banner {
-    /* border: solid yellow; */
+    border: solid yellow;
     width: 42%;
     float: left;
     margin-top: 2px;
 }
 
 #banner h1 {
-    /* border: solid rgb(138, 238, 91); */
+    border: solid rgb(138, 238, 91);
     text-transform: uppercase;
     color: #ffffff;
     font-size: 36px;
@@ -55,13 +55,14 @@ nav {
     /* border: 2px solid rgb(255, 0, 212); */
     float: right;
     width: 56%;
-    margin-top: 9px;
+    margin-top: 15px;
     margin-right: 8px;
+    /* padding-top: 20px; */
 }
 
 nav ul {
     margin: 0;
-    padding: 0;
+    padding-top: 10px;
     list-style: none;
 }
 
