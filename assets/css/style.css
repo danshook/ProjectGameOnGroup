@@ -111,7 +111,7 @@ ul li:hover ul li {
 #temporary_body_filler {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 600px;
 }
 
 footer {
