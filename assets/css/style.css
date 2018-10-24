@@ -184,22 +184,22 @@ footer {
 /* About Page Starts Here*/
 
 #main_about {
-    border: solid rgb(111, 38, 129);
-    height: 1500px;
+    /* border: solid rgb(111, 38, 129); */
+    height: 1300px;
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
 #section_what_we_offer {
-    border: solid black;
+    /* border: solid rgb(224, 54, 54); */
     margin: 0;
     padding: 0;
     height: auto;
 }
 
-#content_about_what_we_offer {
-    border: solid rosybrown;
+#content_what_we_offer {
+    /* border: solid rgb(117, 219, 96); */
     display: inline-block;
     height: auto;
     width: 60%;
@@ -242,6 +242,50 @@ footer {
     margin: 3%;
 }
 
-#content_about_who_we_are {
-    clear: both;
+#section_who_we_are {
+    /* border: solid rgb(224, 54, 54); */
+    margin-top: 15%;
+    padding: 0;
+    height: auto;
+}
+
+#content_who_we_are {
+    /* border: solid rgb(117, 219, 96); */
+    display: inline-block;
+    height: auto;
+    width: 60%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+#who_we_are {
+    /* border: solid orangered; */
+    margin: 3%;
+    padding: 10px;
+    height: auto;
+    max-width: 100%;
+    color: white;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+#who_we_are h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#who_we_are p {
+    /* border: solid red; */
+    width: 475px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-left: 20%;
+}
+
+#who_we_are_img {
+    float: left;
+    margin: 3%;
+
 }
