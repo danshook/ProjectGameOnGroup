@@ -1,8 +1,8 @@
 html, body {
     /* border: solid green; */
+    height: 100%;
     margin: 0;
     padding: 0;
-    /* background-color: #231f20; */
     background-color: rgb(1, 1, 120);
     font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
     font-size: 16px;
@@ -10,6 +10,7 @@ html, body {
 
 .page {
     /* border: solid red; */
+    height: 100%;
     width: 960px;
     margin: 0 auto;
     padding: 0;
@@ -17,7 +18,6 @@ html, body {
 
 header {
     /* border: solid blue; */
-    /* overflow: hidden; */
     height: 70px;
     width: 100%;
     padding: 0;
@@ -58,7 +58,6 @@ nav {
     width: 56%;
     margin-top: 15px;
     margin-right: 8px;
-    /* padding-top: 20px; */
 }
 
 nav ul {
@@ -68,13 +67,10 @@ nav ul {
 }
 
 nav ul li {
-    /* display: inline-block; */
-    /* margin: 5px; */
     /* border: solid black; */
     float: left;
     width: 95px;
     height: 40px;
-    /* opacity: .8; */
     text-align: center;
     padding-left: 10px;
 }
@@ -96,8 +92,6 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #c58232;
     opacity: .8;
-    /* padding-top: 5px; */
-    /* margin-top: 5px; */
 }
 
 nav ul li ul li {
@@ -114,13 +108,15 @@ ul li:hover ul li {
     opacity: .8;
 }
 
+#temporary_body_filler {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 footer {
     /* border: solid rgb(51, 228, 104); */
-    position: absolute;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    /* background-color: #231f20; */
     background-color: rgb(1, 1, 120);
     color: white;
     margin: 0;
@@ -185,18 +181,25 @@ footer {
     text-decoration: none;
 }
 
-/* About page */
+/* About Page Starts Here*/
 
 #main_about {
-    /* border: solid rgb(111, 38, 129); */
+    border: solid rgb(111, 38, 129);
     height: 1500px;
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
-#content_about {
-    /* border: solid rosybrown; */
+#section_what_we_offer {
+    border: solid black;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+#content_about_what_we_offer {
+    border: solid rosybrown;
     display: inline-block;
     height: auto;
     width: 60%;
@@ -237,4 +240,8 @@ footer {
     /* border: solid red; */
     float: right;
     margin: 3%;
+}
+
+#content_about_who_we_are {
+    clear: both;
 }
