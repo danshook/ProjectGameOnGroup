@@ -314,9 +314,9 @@ footer {
 }
 
 #border_mission_statement {
-    border: double white;
-    border-width: 8px;
-    height: 313px;
+    border: solid white;
+    border-width: 2px;
+    height: 320px;
     width: 780px;
     margin: 5% auto;
     /* background-color: red; */
@@ -349,5 +349,4 @@ footer {
     /* margin-top: 20%; */
     /* margin-left: 20%; */
     color: white;
-
 }
