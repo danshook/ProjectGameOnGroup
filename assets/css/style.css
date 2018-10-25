@@ -186,7 +186,7 @@ footer {
 
 #main_about {
     /* border: solid rgb(111, 38, 129); */
-    height: 1500px;
+    height: 1900px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -246,14 +246,14 @@ footer {
 }
 
 #section_who_we_are {
-    border: solid rgb(224, 54, 54);
+    /* border: solid rgb(224, 54, 54); */
     margin-top: 5%;
     padding: 0;
     height: 650px;
 }
 
 #content_who_we_are {
-    border: solid rgb(117, 219, 96);
+    /* border: solid rgb(117, 219, 96); */
     display: inline-block;
     height: auto;
     width: 60%;
@@ -262,7 +262,7 @@ footer {
 }
 
 #who_we_are {
-    border: solid orangered;
+    /* border: solid orangered; */
     margin: 3%;
     padding: 10px;
     height: auto;
@@ -273,7 +273,7 @@ footer {
 }
 
 #who_we_are h1 {
-    border: solid white;
+    /* border: solid white; */
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -281,7 +281,7 @@ footer {
 }
 
 #who_we_are p {
-    border: solid red;
+    /* border: solid red; */
     width: 475px;
     font-size: 15px;
     line-height: 1.6;
@@ -289,10 +289,65 @@ footer {
 }
 
 #who_we_are_img {
-    border: solid white;
+    /* border: solid white; */
     height: 550px;
     width: 350px;
     float: left;
     margin: 3%;
+
+}
+
+#section_mission_statement {
+    /* border: solid red; */
+    height: 600px;
+    /* width: 100%; */
+    margin-top: 1%;
+    /* background-color: rgb(92, 56, 56); */
+}
+
+#content_mission_statement {
+    /* border: solid black; */
+    height: 400px;
+    width: 800px;
+    margin: 2% auto;
+    /* background-color: rgb(74, 74, 182); */
+}
+
+#border_mission_statement {
+    border: double white;
+    border-width: 8px;
+    height: 313px;
+    width: 780px;
+    margin: 5% auto;
+    /* background-color: red; */
+    /* float: left; */
+    /* opacity: .8; */
+    z-index: -1;
+}
+
+#mission_statement_header {
+    /* border: solid black; */
+    height: 60px;
+    width: 60%;
+    margin: -385px auto;
+    /* background-color: gray; */
+    background-color: rgb(1, 1, 120);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1; 
+}
+
+#content_mission_statement p {
+    /* border: solid red; */
+    width: 475px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 400px auto;
+    /* margin-top: 20%; */
+    /* margin-left: 20%; */
+    color: white;
 
 }
