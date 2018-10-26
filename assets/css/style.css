@@ -182,6 +182,41 @@ footer {
 }
 
 /* *********************** */
+/* People Page Starts Here*/
+
+#main_people {
+    border: solid red;
+    border-width: 5px;
+    height: 1000px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#section_people_profiles {
+    border: solid orange;
+    border-width: 5px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+#content_people_mentees {
+    border: blue;
+    border-width: 5px;
+    color: white;
+    background-color: rgb(1, 1, 120);
+    margin: 0;
+    padding: 0px 5px;
+}
+
+
+
+
+
+/* *********************** */
 /* About Page Starts Here*/
 
 #main_about {
