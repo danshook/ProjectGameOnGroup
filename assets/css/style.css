@@ -185,31 +185,52 @@ footer {
 /* People Page Starts Here*/
 
 #main_people {
-    border: solid red;
-    border-width: 5px;
+    /* border: solid red; */
+    border-width: 10px;
     height: 1000px;
     width: 100%;
-    margin: 0;
+    margin: 10px;
     padding: 0;
 }
 
 #section_people_profiles {
-    border: solid orange;
-    border-width: 5px;
+    /* border: solid orange; */
+    border-width: 10px;
     height: 100%;
     width: 100%;
     margin: 0;
-    padding: 0;
-    background-color: gray;
+    padding: 10px;
+    /* background-color: gray; */
 }
 
 #content_people_mentees {
-    border: blue;
-    border-width: 5px;
+    /* border: solid yellow; */
+    border-width: 10px;
+    height: 30px;
+    width: 100%;
     color: white;
     background-color: rgb(1, 1, 120);
     margin: 0;
-    padding: 0px 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#profile_people_mentees {
+    /* border: solid green; */
+    border-width: 10px;
+    /* background-color: orange; */
+    margin-top: 13px;
+    margin-left: -8px;
+    padding: 0;    
+    height: 350px;
+    width: 100%;
+}
+
+.row1_mentee {
+    border: solid black;
+    border-width: 1px;
+    padding: 0 2px;
+    float: left;
 }
 
 
