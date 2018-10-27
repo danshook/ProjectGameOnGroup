@@ -226,10 +226,10 @@ footer {
     width: 100%;
 }
 
-.row1_mentee {
+.row_mentee {
     /* border: solid black; */
     /* border-width: 1px; */
-    padding: 1px 1px;
+    padding: 1px 2px;
     float: left;
     font-size: 14px;
     font-weight: lighter;
