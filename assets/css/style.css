@@ -205,23 +205,26 @@ footer {
 
 #content_people_mentees {
     /* border: solid yellow; */
-    border-width: 10px;
+    /* border-width: 10px; */
     height: 30px;
-    width: 100%;
-    color: white;
-    background-color: rgb(1, 1, 120);
-    margin: 0;
+    width: auto;
+    color: #c58232;
+    /* background-color: rgb(1, 1, 120); */
+    background-color: white;
+    margin-left: -7px;
+    margin-right: 30px;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: normal;
+    padding: 3px;
 }
 
 #profile_people_mentees {
     /* border: solid green; */
     border-width: 10px;
     /* background-color: orange; */
-    margin-top: 13px;
-    margin-left: -8px;
-    margin-right: 8px;
+    margin-top: 20px;
+    margin-left: -6px;
+    margin-right: -10px;
     padding: 0;    
     height: 800px;
     width: auto;
