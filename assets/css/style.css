@@ -216,7 +216,7 @@ footer {
 }
 
 #profile_people_mentees {
-    border: solid green;
+    /* border: solid green; */
     border-width: 10px;
     /* background-color: orange; */
     margin-top: 13px;
@@ -248,7 +248,7 @@ footer {
 }
 
 #profile_people_mentors {
-    border: solid red;
+    /* border: solid red; */
     border-width: 10px;
     /* background-color: orange; */
     margin-top: 13px;
@@ -259,6 +259,14 @@ footer {
     width: auto;
     overflow: hidden;
 }
+
+.row_mentor {
+    /* border: solid black; */
+    /* border-width: 1px; */
+    padding: 1px 2px;
+    float: left;
+}
+
 
 
 
