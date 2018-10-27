@@ -187,7 +187,7 @@ footer {
 #main_people {
     /* border: solid red; */
     border-width: 10px;
-    height: 1000px;
+    height: 2000px;
     width: 100%;
     margin: 10px;
     padding: 0;
@@ -216,14 +216,16 @@ footer {
 }
 
 #profile_people_mentees {
-    /* border: solid green; */
+    border: solid green;
     border-width: 10px;
     /* background-color: orange; */
     margin-top: 13px;
     margin-left: -8px;
+    margin-right: 8px;
     padding: 0;    
-    height: 350px;
-    width: 100%;
+    height: 800px;
+    width: auto;
+    overflow: hidden;
 }
 
 .row_mentee {
@@ -231,9 +233,31 @@ footer {
     /* border-width: 1px; */
     padding: 1px 2px;
     float: left;
-    font-size: 14px;
-    font-weight: lighter;
-    text-align: center;
+}
+
+#content_people_mentors {
+    /* border: solid yellow; */
+    border-width: 10px;
+    height: 30px;
+    width: 100%;
+    color: white;
+    background-color: rgb(1, 1, 120);
+    margin-top: 850px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#profile_people_mentors {
+    border: solid red;
+    border-width: 10px;
+    /* background-color: orange; */
+    margin-top: 13px;
+    margin-left: -8px;
+    margin-right: 8px;
+    padding: 0;    
+    height: 800px;
+    width: auto;
+    overflow: hidden;
 }
 
 
