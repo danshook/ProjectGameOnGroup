@@ -201,6 +201,7 @@ footer {
     margin: 0;
     padding: 10px;
     /* background-color: gray; */
+    /* display: block; */
 }
 
 #content_people_mentees {
@@ -222,8 +223,8 @@ footer {
     /* border: solid green; */
     border-width: 10px;
     /* background-color: orange; */
-    margin-top: 20px;
-    margin-left: -10px;
+    margin-top: 10px;
+    margin-left: -11px;
     margin-right: -10px;
     padding: 0;    
     height: 715px;
