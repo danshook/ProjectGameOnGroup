@@ -227,10 +227,13 @@ footer {
 }
 
 .row1_mentee {
-    border: solid black;
-    border-width: 1px;
+    /* border: solid black; */
+    /* border-width: 1px; */
     padding: 0 2px;
     float: left;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
 }
 
 
