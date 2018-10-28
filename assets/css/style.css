@@ -248,7 +248,7 @@ footer {
     height: 350px;
     width: 350px;
     text-align: center;
-    /* visibility: hidden; */
+    visibility: hidden;
 
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
