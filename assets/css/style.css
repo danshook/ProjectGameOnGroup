@@ -240,6 +240,69 @@ footer {
     float: left;
 }
 
+.row_mentee_1 {
+    /* border: solid red; */
+    position: absolute;
+    left: 15px;
+    top: 142px;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    visibility: hidden;
+    transition-delay: .1s;
+    /* transition: ease-in-out; */
+    background-color: black;
+}
+
+.row_mentee:hover .row_mentee_1 {
+    visibility: visible;
+    opacity: .4;
+    color: white;
+}
+
+.row_mentee_2 {
+    /* border: solid red; */
+    position: absolute;
+    left: 368px;
+    top: 142px;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    visibility: hidden;
+    /* transform: translate(-50%, -50%); */
+    transition-delay: .1s;
+    background-color: black;
+}
+
+.row_mentee:hover .row_mentee_2 {
+    visibility: visible;
+    opacity: .4;
+    color: white;
+}
+
+.row_mentee_3 {
+    /* border: solid red; */
+    position: absolute;
+    left: 723px;
+    top: 142px;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    visibility: hidden;
+    /* transform: translate(-50%, -50%); */
+    transition-delay: .1s;
+    background-color: black;
+}
+
+.row_mentee:hover .row_mentee_3 {
+    visibility: visible;
+    opacity: .4;
+    color: white;
+}
+
+
+
+
 #content_people_mentors {
     /* border: solid yellow; */
     border-width: 10px;
