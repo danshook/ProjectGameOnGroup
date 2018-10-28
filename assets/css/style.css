@@ -249,14 +249,7 @@ footer {
     width: 350px;
     text-align: center;
     visibility: hidden;
-
-    /* -webkit-backface-visibility: hidden; */
-    /* -moz-backface-visibility: hidden; */
-    /* -webkit-transform: translate3d(0, 0, 0); */
-    /* -moz-transform: translate3d(0, 0, 0); */
-
     transition-delay: .1s;
-    /* transition: ease-in-out; */
     background-color: black;
 }
 
@@ -269,7 +262,7 @@ footer {
 .row_mentee_2 {
     /* border: solid red; */
     position: absolute;
-    left: 368px;
+    left: 369px;
     top: 142px;
     height: 350px;
     width: 350px;
@@ -289,7 +282,7 @@ footer {
 .row_mentee_3 {
     /* border: solid red; */
     position: absolute;
-    left: 723px;
+    left: 724px;
     top: 142px;
     height: 350px;
     width: 350px;
@@ -301,6 +294,26 @@ footer {
 }
 
 .row_mentee:hover .row_mentee_3 {
+    visibility: visible;
+    opacity: .4;
+    color: white;
+}
+
+.row_mentee_4 {
+    /* border: solid red; */
+    position: absolute;
+    left: 1079px;
+    top: 142px;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    visibility: hidden;
+    /* transform: translate(-50%, -50%); */
+    transition-delay: .1s;
+    background-color: black;
+}
+
+.row_mentee:hover .row_mentee_4 {
     visibility: visible;
     opacity: .4;
     color: white;
